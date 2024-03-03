@@ -1,13 +1,7 @@
 # Основные команды Git<br>
 
-```mermaid
-graph LR;
-%% жизненный цикл файлов: 
-  untracked -- "git add" --> staged;  
-  staged    -- "git commit"     --> tracked/comitted;  
-  comitted    -- "git push"     --> GitServer;  
-``` 
-
+![Live](img/LiveInGit.png)  
+  
 __`git init`__ создание в текущей директории Репозитория git  
 __`git clone https://github.com/PraktikumJava/git-hints.git`__ клонирование репозитория  
 __`git remote add <name> <https://github.com/%ИМЯ_АККАУНТА%/%ИМЯ_ПРОЕКТА%>`__ связывание локального репозитория с созданным на GitHub репозиторием. Обычно `<name>` это _origin_. Ссылку на репозиторий надо получить. Например предварительно создать его на github.com  

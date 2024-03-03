@@ -5,7 +5,7 @@ graph LR;
 %% жизненный цикл файлов: 
   untracked -- "git add" --> staged;  
   staged    -- "git commit"     --> tracked/comitted;  
-  comitted    -- "git push"     --> Git Server;  
+  comitted    -- "git push"     --> GitServer;  
 ``` 
 
 __`git init`__ создание в текущей директории Репозитория git  
